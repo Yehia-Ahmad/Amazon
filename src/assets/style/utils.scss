@@ -1,0 +1,17 @@
+@import "../../global-mixins";
+@import "../../global-variables";
+
+.not-allowed-cursor {
+  cursor: not-allowed;
+}
+
+.dimmed {
+  pointer-events: none;
+  opacity: 0.4;
+}
+
+.clickable-text {
+  cursor: pointer;
+  font-size: $defaultFontSize;
+  color: $blueColor;
+}
